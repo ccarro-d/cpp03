@@ -6,7 +6,7 @@
 /*   By: ccarro-d <ccarro-d@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 00:24:19 by ccarro-d          #+#    #+#             */
-/*   Updated: 2026/02/10 01:55:58 by ccarro-d         ###   ########.fr       */
+/*   Updated: 2026/02/10 02:00:15 by ccarro-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -113,7 +113,7 @@ void	ClapTrap::checkStatus() const
 }
 
 // GETTERS
-
+/*
 const std::string&	ClapTrap::getName() const
 {
 	return (name_);
@@ -133,3 +133,4 @@ unsigned int	ClapTrap::getAttackDamage() const
 {
 	return (attackDamage_);
 }
+*/
