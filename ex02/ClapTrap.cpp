@@ -6,7 +6,7 @@
 /*   By: ccarro-d <ccarro-d@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 00:24:19 by ccarro-d          #+#    #+#             */
-/*   Updated: 2026/02/14 13:30:54 by ccarro-d         ###   ########.fr       */
+/*   Updated: 2026/02/14 13:30:36 by ccarro-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -134,3 +134,12 @@ unsigned int	ClapTrap::getAttackDamage() const
 	return (attackDamage_);
 }
 */
+
+//SETTERS
+
+void	ClapTrap::setName(const std::string& newName)
+{
+	std::cout << "ClapTrap named " << name_ << " was renamed to " << newName << std::endl;
+	name_ = newName;
+	
+}
