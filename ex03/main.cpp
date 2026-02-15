@@ -6,7 +6,7 @@
 /*   By: ccarro-d <ccarro-d@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/10 00:41:46 by ccarro-d          #+#    #+#             */
-/*   Updated: 2026/02/14 18:05:58 by ccarro-d         ###   ########.fr       */
+/*   Updated: 2026/02/15 19:41:30 by ccarro-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,8 @@ int	main(void)
 	newMainCharacter.beRepaired(50);
 	newMainCharacter.checkStatus();
 	otherCharacter.checkStatus();
+	otherCharacter.whoAmI();
+	std::cout << std::endl;
 
 	DiamondTrap anotherCharacter;
 	anotherCharacter = newMainCharacter;
@@ -48,6 +50,8 @@ int	main(void)
 	newMainCharacter.beRepaired(50);
 	newMainCharacter.checkStatus();
 	anotherCharacter.checkStatus();
+	anotherCharacter.whoAmI();
+	std::cout << std::endl;
 
 	return (0);
 }
